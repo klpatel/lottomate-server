@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LotoMate.Identity.API</name>
+    </assembly>
+    <members>
+        <member name="M:LotoMate.Identity.API.Authorisation.RoleHandler.ResponseAuthError(System.Boolean)">
+            <summary>
+            Method to prepare http response and write
+            </summary>
+            <param name="isAuthenticationError"></param>
+        </member>
+        <member name="M:LotoMate.LotoMate.API.Controllers.AccountController.Login(LotoMate.Identity.API.ViewModels.LoginViewModel)">
+            <summary>
+            Enables User Login
+            </summary>
+        </member>
+        <member name="M:LotoMate.Identity.API.Controllers.AccountController.EmailCheck(LotoMate.Identity.API.ViewModels.LoginViewModel)">
+            <summary>
+            Enables User Login
+            </summary>
+        </member>
+        <member name="M:LotoMate.Identity.API.Controllers.AccountController.userStatus(LotoMate.Identity.API.ViewModels.AspnetusersExtViewModel)">
+            <summary>
+            Enables User Login
+            </summary>
+        </member>
+        <member name="M:LotoMate.Identity.API.Extensions.IdentityPolicy.GenerateRandomPassword">
+            <summary>
+            Generates a Random Password
+            respecting the given strength requirements.
+            </summary>
+            <returns>A random password</returns>
+        </member>
+        <member name="M:LotoMate.Identity.API.Extensions.IdentityPolicy.GenerateOTP">
+            <summary>
+            Generates a Random Numbers
+            </summary>
+            <returns>A random numbers</returns>
+        </member>
+        <member name="T:LotoMate.Identity.API.ViewModels.AccessTokensResponse">
+            <summary>
+            JWT successful response.
+            </summary>
+            <remarks>
+            See: https://www.oauth.com/oauth2-servers/access-tokens/access-token-response/
+            </remarks>
+        </member>
+        <member name="M:LotoMate.Identity.API.ViewModels.AccessTokensResponse.#ctor(LotoMate.Identity.Infrastructure.Models.Token)">
+            <summary>
+            Initializes a new instance of <seealso cref="T:LotoMate.Identity.API.ViewModels.AccessTokensResponse"/>.
+            </summary>
+            <param name="token"></param>
+        </member>
+        <member name="T:LotoMate.Identity.API.ViewModels.LoginRequest">
+            <summary>
+            Encapsulates fields for login request.
+            </summary>
+            <remarks>
+            See: https://www.oauth.com/oauth2-servers/access-tokens/
+            </remarks>
+        </member>
+    </members>
+</doc>

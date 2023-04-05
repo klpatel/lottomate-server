@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.API", "LotoMate.API\LotoMate.API.csproj", "{249341CF-6974-44F6-A335-6F79D2123E74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{400229C8-FA31-49E7-ADA0-A565400F0427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{B78CD85A-37F1-47F5-9DBD-CA2ECBE1709F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lottery", "Lottery", "{87FD474A-B95A-402D-8679-5BDD1F7A5A73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Identity.Api", "LotoMate.Identity.Api\LotoMate.Identity.Api.csproj", "{6D272A22-527E-4641-BFAC-6557A4334D02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Identity.Infrastructure", "LotoMate.Identity.Infrastructure\LotoMate.Identity.Infrastructure.csproj", "{741900A0-E7A1-4AD3-89D5-E18837FC78CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Lottery.Api", "LotoMate.Lottery.Api\LotoMate.Lottery.Api.csproj", "{0FBFA305-50A1-4552-8E76-3D8A7B4906B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Lottery.Infrastructure", "LotoMate.Lottery.Infrastructure\LotoMate.Lottery.Infrastructure.csproj", "{21B1D8F5-473F-4D7E-B7A0-4DA037A3F047}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Lottery.Reports", "LotoMate.Lottery.Reports\LotoMate.Lottery.Reports.csproj", "{B7873295-656E-4D0A-8B16-C6E359BAF485}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{1EF7AAC5-1D1C-4935-A78D-5AE1B72C4EDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Framework", "LotoMate.Framework\LotoMate.Framework.csproj", "{2B588C8F-D023-4DC1-82B8-CCAD5BF61261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D75C28AD-DC43-4659-8791-4574E222FD80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Client.Api", "LotoMate.Client.Api\LotoMate.Client.Api.csproj", "{CF8FC7B2-5B77-4F29-80B1-774C3C0A1325}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotoMate.Client.Infrastructure", "LotoMate.Client.Infrastructure\LotoMate.Client.Infrastructure.csproj", "{C3DFCC18-9F39-4E9B-82A2-22C962024505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotoMate.Reports.Library", "LotoMate.Reports.Library\LotoMate.Reports.Library.csproj", "{A14ED5A5-35AC-4778-AB6B-A91B212AE039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249341CF-6974-44F6-A335-6F79D2123E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249341CF-6974-44F6-A335-6F79D2123E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249341CF-6974-44F6-A335-6F79D2123E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249341CF-6974-44F6-A335-6F79D2123E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D272A22-527E-4641-BFAC-6557A4334D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D272A22-527E-4641-BFAC-6557A4334D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D272A22-527E-4641-BFAC-6557A4334D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D272A22-527E-4641-BFAC-6557A4334D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741900A0-E7A1-4AD3-89D5-E18837FC78CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741900A0-E7A1-4AD3-89D5-E18837FC78CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741900A0-E7A1-4AD3-89D5-E18837FC78CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741900A0-E7A1-4AD3-89D5-E18837FC78CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBFA305-50A1-4552-8E76-3D8A7B4906B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBFA305-50A1-4552-8E76-3D8A7B4906B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBFA305-50A1-4552-8E76-3D8A7B4906B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBFA305-50A1-4552-8E76-3D8A7B4906B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B1D8F5-473F-4D7E-B7A0-4DA037A3F047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B1D8F5-473F-4D7E-B7A0-4DA037A3F047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B1D8F5-473F-4D7E-B7A0-4DA037A3F047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B1D8F5-473F-4D7E-B7A0-4DA037A3F047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7873295-656E-4D0A-8B16-C6E359BAF485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7873295-656E-4D0A-8B16-C6E359BAF485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7873295-656E-4D0A-8B16-C6E359BAF485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7873295-656E-4D0A-8B16-C6E359BAF485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B588C8F-D023-4DC1-82B8-CCAD5BF61261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B588C8F-D023-4DC1-82B8-CCAD5BF61261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B588C8F-D023-4DC1-82B8-CCAD5BF61261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B588C8F-D023-4DC1-82B8-CCAD5BF61261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8FC7B2-5B77-4F29-80B1-774C3C0A1325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8FC7B2-5B77-4F29-80B1-774C3C0A1325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8FC7B2-5B77-4F29-80B1-774C3C0A1325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8FC7B2-5B77-4F29-80B1-774C3C0A1325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DFCC18-9F39-4E9B-82A2-22C962024505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DFCC18-9F39-4E9B-82A2-22C962024505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DFCC18-9F39-4E9B-82A2-22C962024505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DFCC18-9F39-4E9B-82A2-22C962024505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14ED5A5-35AC-4778-AB6B-A91B212AE039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14ED5A5-35AC-4778-AB6B-A91B212AE039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14ED5A5-35AC-4778-AB6B-A91B212AE039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14ED5A5-35AC-4778-AB6B-A91B212AE039}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249341CF-6974-44F6-A335-6F79D2123E74} = {400229C8-FA31-49E7-ADA0-A565400F0427}
+		{6D272A22-527E-4641-BFAC-6557A4334D02} = {B78CD85A-37F1-47F5-9DBD-CA2ECBE1709F}
+		{741900A0-E7A1-4AD3-89D5-E18837FC78CE} = {B78CD85A-37F1-47F5-9DBD-CA2ECBE1709F}
+		{0FBFA305-50A1-4552-8E76-3D8A7B4906B9} = {87FD474A-B95A-402D-8679-5BDD1F7A5A73}
+		{21B1D8F5-473F-4D7E-B7A0-4DA037A3F047} = {87FD474A-B95A-402D-8679-5BDD1F7A5A73}
+		{B7873295-656E-4D0A-8B16-C6E359BAF485} = {87FD474A-B95A-402D-8679-5BDD1F7A5A73}
+		{2B588C8F-D023-4DC1-82B8-CCAD5BF61261} = {1EF7AAC5-1D1C-4935-A78D-5AE1B72C4EDE}
+		{CF8FC7B2-5B77-4F29-80B1-774C3C0A1325} = {D75C28AD-DC43-4659-8791-4574E222FD80}
+		{C3DFCC18-9F39-4E9B-82A2-22C962024505} = {D75C28AD-DC43-4659-8791-4574E222FD80}
+		{A14ED5A5-35AC-4778-AB6B-A91B212AE039} = {87FD474A-B95A-402D-8679-5BDD1F7A5A73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A6F2744-1211-49E7-AE5B-EEB81CDE1D8E}
+	EndGlobalSection
+EndGlobal

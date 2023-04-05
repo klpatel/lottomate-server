@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LotoMate.API</name>
+    </assembly>
+    <members>
+        <member name="M:LotoMate.API.Controllers.ErrorsController.Error(System.Nullable{System.Int32})">
+            200 Success : Default for all successful requests
+        </member>
+    </members>
+</doc>
