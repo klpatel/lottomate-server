@@ -1,0 +1,1 @@
+# lottomate-server
