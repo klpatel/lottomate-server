@@ -29,7 +29,7 @@ namespace LotoMate.Lottery.Reports.Configurations
             services.AddScoped<IInstanceGameSalesRepository, InstanceGameSalesRepository>();
             services.AddScoped<ICategorySalesRepository, CategorySalesRepository>();
 
-            services.AddMediatR(typeof(ServicesConfiguration).GetTypeInfo().Assembly);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(ServicesConfiguration).GetTypeInfo().Assembly));
 
             return services;
 

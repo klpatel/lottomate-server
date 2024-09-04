@@ -25,7 +25,7 @@ namespace LotoMate.Client.Api.Configurations
             services.AddScoped<IBusinessTypeRepository, BusinessTypeRepository>();
             services.AddScoped<IBusinessCategoryRepository, BusinessCategoryRepository>();
             
-            services.AddMediatR(typeof(ServicesConfiguration).GetTypeInfo().Assembly);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(ServicesConfiguration).GetTypeInfo().Assembly));
 
             return services;
 
