@@ -26,7 +26,7 @@ namespace LotoMate.Lottery.Api.Configurations
             services.AddScoped<ICategorySalesRepository, CategorySalesRepository>();
             services.AddScoped<IGameSalesCategoryRepository, GameSalesCategoryRepository>();
 
-            services.AddMediatR(typeof(ServicesConfiguration).GetTypeInfo().Assembly);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(ServicesConfiguration).GetTypeInfo().Assembly));
 
             return services;
 

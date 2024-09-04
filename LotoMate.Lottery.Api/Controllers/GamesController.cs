@@ -130,9 +130,9 @@ namespace LotoMate.Lottery.Api.Controllers
         {
             try
             {
-                var unit = await mediator.Send(new DeleteGameRequest() { Id = id });
+                await mediator.Send(new DeleteGameRequest() { Id = id });
                 await unitOfWork.SaveChangesAsync();
-                return Ok(unit);
+                return Ok();
             }
             catch (Exception ex)
             {

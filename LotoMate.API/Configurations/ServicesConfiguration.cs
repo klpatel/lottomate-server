@@ -92,14 +92,18 @@ namespace LotoMate.API.Configurations
 
             string environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
             //Add automapper
-            services.AddAutoMapper(identityApiAssembly, clientApiAssembly,lottoApiAssembly, lottoReportsAssembly);
+            services.AddAutoMapper(identityApiAssembly,
+                                   clientApiAssembly,
+                                   lottoApiAssembly,
+                                   lottoReportsAssembly);
             //load service from APIs
             services.AddIdentityServices(configuration);
             services.AddClientServices(configuration);
             services.AddLottoServices(configuration);
             services.AddReportServices(configuration);
             // Add mediatR
-            services.AddMediatR(typeof(LotoMate.API.Configurations.ServicesConfiguration).GetTypeInfo().Assembly);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(LotoMate.API.Configurations.ServicesConfiguration).GetTypeInfo().Assembly));
+
 
             return services;
         }

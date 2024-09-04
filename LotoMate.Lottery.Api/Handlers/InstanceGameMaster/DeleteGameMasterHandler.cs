@@ -27,6 +27,11 @@ namespace LotoMate.Lottery.Api.Handlers.Game
             instanceGameRepository.Delete(gameDetails);
             return await Unit.Task;
         }
+
+        Task IRequestHandler<DeleteGameRequest>.Handle(DeleteGameRequest request, CancellationToken cancellationToken)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 
     public class DeleteGameRequest : IRequest

@@ -87,3 +87,13 @@ Thumbs.db
 /LotoMate.Lottery.Infrastructure/bin/Release/netcoreapp3.1
 /LotoMate.Lottery.Reports/bin/Release/netcoreapp3.1
 /LotoMate.Reports.Library/bin/Release/netcoreapp3.1
+/LotoMate.API/bin/Debug/net8.0
+/LotoMate.Client.Api/bin/Debug/net8.0
+/LotoMate.Client.Infrastructure/bin/Debug/net8.0
+/LotoMate.Framework/bin/Debug/net8.0
+/LotoMate.Identity.Api/bin/Debug/net8.0
+/LotoMate.Identity.Infrastructure/bin/Debug/net8.0
+/LotoMate.Lottery.Api/bin/Debug/net8.0
+/LotoMate.Lottery.Infrastructure/bin/Debug/net8.0
+/LotoMate.Lottery.Reports/bin/Debug/net8.0
+/LotoMate.Reports.Library/bin/Debug/net8.0
